@@ -13,7 +13,7 @@ gulp.task("reload", function() {
 })
 
 gulp.task("watch", function() {
-    gulp.watch(["index.html", "css/application.css", "js/index.js", "slides/**/*.html"], ["reload"]);
+    gulp.watch(["index.html", "md/**/*.md"], ["reload"]);
 })
 
 gulp.task("default", ["connect", "watch"]);
