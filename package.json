@@ -1,0 +1,23 @@
+{
+  "name": "midwest_js_2015",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasoncode/midwest_js_2015.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/thomasoncode/midwest_js_2015/issues"
+  },
+  "homepage": "https://github.com/thomasoncode/midwest_js_2015#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^4.0.0"
+  }
+}
