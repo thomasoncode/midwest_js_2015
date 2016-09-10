@@ -15,11 +15,17 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-markdown="md/title.md"
-				         data-separator="^\n\n\n"
-				         data-separator-vertical="^\n\n"
-				         data-separator-notes="^Note:"
-				         data-charset="iso-8859-15">
+				<section data-markdown="md/title.md"></section>
+				<section data-markdown="md/overview.md"></section>
+				<section data-markdown="md/day-one.md"></section>
+				<section>
+					<section data-markdown="md/day-two.md"></section>
+					<section data-markdown="md/day-two/keynote.md"></section>
+					<section data-markdown="md/day-two/matt.md"></section>
+				</section>
+				<section>
+					<section data-markdown="md/day-three.md"></section>
+					<section data-markdown="md/day-three/matt.md"></section>
 				</section>
 			</div>
 		</div>
@@ -37,7 +43,8 @@
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
+				],
+				width: "90%"
 			});
 		</script>
 	</body>
