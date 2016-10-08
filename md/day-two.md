@@ -1,4 +1,4 @@
-## Day 2
+## Day Two
 * Keynote
 * Frameworks, Node, Beginner, Advanced
 * Happy Hour
